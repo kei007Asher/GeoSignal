@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bbc_world",
+    "name": "BBC World",
+    "type": "rss",
+    "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "tier": 2,
+    "is_active": true
+  },
+  {
+    "id": "guardian_asia",
+    "name": "The Guardian Asia",
+    "type": "rss",
+    "url": "https://www.theguardian.com/world/asia/rss",
+    "tier": 2,
+    "is_active": true
+  },
+  {
+    "id": "eu_council",
+    "name": "EU Council Press",
+    "type": "rss",
+    "url": "https://www.consilium.europa.eu/en/rss/press-releases/",
+    "tier": 1,
+    "is_active": true
+  },
+  {
+    "id": "state_dept",
+    "name": "US State Dept Travel",
+    "type": "html",
+    "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+    "tier": 1,
+    "is_active": true
+  },
+  {
+    "id": "un_news",
+    "name": "UN News",
+    "type": "rss",
+    "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+    "tier": 1,
+    "is_active": true
+  }
+]

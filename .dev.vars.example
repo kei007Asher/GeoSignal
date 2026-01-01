@@ -1,0 +1,14 @@
+# Cloudflare D1 (wrangler dev uses local SQLite)
+# No secrets needed for local dev
+
+# API認証 (本番用、ローカルでは不要)
+CRON_SECRET=your-random-secret-here
+
+# 課金安全設定
+MAX_RAW_PER_DAY=200
+MAX_DEEP_PER_RUN=10
+LLM_MODE=off
+
+# OpenAI (on_demand時のみ使用、デフォはOFFなので不要)
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_MODEL=gpt-4o-mini

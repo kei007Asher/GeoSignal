@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sig_2025-12-29_001",
+    "date_jst": "2025-12-29",
+    "title": "台湾周辺での軍事動向と港湾封鎖シナリオが再浮上",
+    "summary": "中国軍が台湾周辺で大規模演習を実施。港湾封鎖シナリオへの言及が複数ソースで確認された。",
+    "labels": ["INFERENCE"],
+    "score": 78,
+    "score_components": {
+      "source_mentions": 11,
+      "cross_region": 3,
+      "official_source": 0,
+      "travel_related": 0,
+      "recency": 10
+    },
+    "why_up": [
+      { "metric": "source_mentions", "prev": 6, "curr": 11, "delta": 5 },
+      { "metric": "cross_region", "prev": 1, "curr": 3, "delta": 2 }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.bbc.com/news/world-asia-12345",
+        "source_id": "bbc_world",
+        "title": "China conducts military drills near Taiwan",
+        "evidence_type": "news"
+      },
+      {
+        "url": "https://www.theguardian.com/world/2025/dec/28/taiwan-tensions",
+        "source_id": "guardian_asia",
+        "title": "Taiwan tensions rise amid new exercises",
+        "evidence_type": "news"
+      }
+    ],
+    "updated_at": "2025-12-29T10:15:00+09:00"
+  },
+  {
+    "id": "sig_2025-12-29_002",
+    "date_jst": "2025-12-29",
+    "title": "EU、対中半導体輸出規制の強化を検討",
+    "summary": "EU理事会が半導体製造装置の対中輸出規制強化について協議。2026年Q1に決定予定。",
+    "labels": ["FACT"],
+    "score": 65,
+    "score_components": {
+      "source_mentions": 7,
+      "cross_region": 2,
+      "official_source": 1,
+      "travel_related": 0,
+      "recency": 8
+    },
+    "why_up": [
+      { "metric": "source_mentions", "prev": 3, "curr": 7, "delta": 4 },
+      { "metric": "official_source", "prev": 0, "curr": 1, "delta": 1 }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/28/semiconductor-export/",
+        "source_id": "eu_council",
+        "title": "Council discusses semiconductor export controls",
+        "evidence_type": "official"
+      }
+    ],
+    "updated_at": "2025-12-29T09:30:00+09:00"
+  },
+  {
+    "id": "sig_2025-12-28_001",
+    "date_jst": "2025-12-28",
+    "title": "米国務省、台湾渡航に関する注意喚起を更新",
+    "summary": "米国務省が台湾渡航に関する注意喚起を更新。レベル2（注意強化）を維持。",
+    "labels": ["FACT"],
+    "score": 72,
+    "score_components": {
+      "source_mentions": 3,
+      "cross_region": 1,
+      "official_source": 1,
+      "travel_related": 1,
+      "recency": 5
+    },
+    "why_up": [
+      { "metric": "official_source", "prev": 0, "curr": 1, "delta": 1 },
+      { "metric": "travel_related", "prev": 0, "curr": 1, "delta": 1 }
+    ],
+    "evidence": [
+      {
+        "url": "https://travel.state.gov/content/travel/en/traveladvisories/taiwan.html",
+        "source_id": "state_dept",
+        "title": "Taiwan Travel Advisory",
+        "evidence_type": "official"
+      }
+    ],
+    "updated_at": "2025-12-28T22:00:00+09:00"
+  }
+]

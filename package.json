@@ -1,0 +1,25 @@
+{
+  "name": "geosignal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:ui": "pnpm --filter @geosignal/ui dev",
+    "dev:jobs": "pnpm --filter @geosignal/jobs dev",
+    "build:ui": "pnpm --filter @geosignal/ui build",
+    "build:jobs": "pnpm --filter @geosignal/jobs build",
+    "deploy:ui": "pnpm --filter @geosignal/ui deploy",
+    "deploy:jobs": "pnpm --filter @geosignal/jobs deploy",
+    "cli": "pnpm --filter @geosignal/cli start",
+    "cli:plan": "pnpm --filter @geosignal/cli start -- plan",
+    "cli:run": "pnpm --filter @geosignal/cli start -- run",
+    "cli:run:dry": "pnpm --filter @geosignal/cli start -- run --dry-run",
+    "db:migrate": "wrangler d1 execute geosignal-db --file=./schema.sql",
+    "db:migrate:local": "wrangler d1 execute geosignal-db --local --file=./schema.sql"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

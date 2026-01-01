@@ -1,0 +1,24 @@
+[
+  {
+    "id": "run_2025-12-29_01",
+    "mode": "manual",
+    "dry_run": true,
+    "llm_mode": "off",
+    "max_raw_per_day": 200,
+    "raw_used_today": 32,
+    "started_at": "2025-12-29T09:55:00+09:00",
+    "finished_at": "2025-12-29T10:02:00+09:00",
+    "status": "success"
+  },
+  {
+    "id": "run_2025-12-28_01",
+    "mode": "manual",
+    "dry_run": false,
+    "llm_mode": "off",
+    "max_raw_per_day": 200,
+    "raw_used_today": 87,
+    "started_at": "2025-12-28T08:30:00+09:00",
+    "finished_at": "2025-12-28T08:45:00+09:00",
+    "status": "success"
+  }
+]
